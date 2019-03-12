@@ -1,0 +1,32 @@
+.form-container {
+	max-width: 400px;
+	margin-left: 5%;
+}
+
+.form-container > .input {
+	width: 250px;
+}
+
+.form-container > .select {
+	width: 200px;
+	margin-top: 16px;
+}
+
+.form-container > .send-form-button {
+	margin-top: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+	.form-container {
+		max-width: 80%;
+		margin-left: 16px;
+	}
+
+	.form-container > .input {
+		width: 80%;
+	}
+
+	.form-container > .select {
+		width: 70%;
+	}
+}

@@ -1,0 +1,16 @@
+.action-bar-container {
+	justify-content: space-between;
+	margin: 20px 10%;
+	min-height: 30px;
+}
+
+.action-bar-button {
+	font-size: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+	.action-bar-container {
+		justify-content: space-between;
+		margin: 20px 10%;
+	}
+}

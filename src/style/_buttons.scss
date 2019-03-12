@@ -1,0 +1,33 @@
+@mixin button($background-color, $text-color) {
+	background-color: $background-color;
+	color: $text-color;
+
+	&.elevated {
+		z-index: 5;
+		box-shadow: 1;
+	}
+}
+
+.primary-button {
+	@include button($primary-color, $primary-text-color);
+}
+
+.secondary-button {
+	@include button($secondary-color, $secondary-text-color);
+}
+
+.primary-flat-button {
+	@include button($transparent, $primary-color);
+}
+
+.secondary-flat-button {
+	@include button($transparent, $secondary-color);
+}
+
+.white-flat-button {
+	@include button($transparent, $white);
+}
+
+.almost-black-flat-button {
+	@include button($transparent, $almost-black);
+}

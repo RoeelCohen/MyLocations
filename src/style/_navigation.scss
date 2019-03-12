@@ -1,0 +1,50 @@
+@mixin navigation-bar($main-color, $sub-color, $hover-text-color, $radius) {
+	background-color: $transparent;
+	color: $main-color;
+	border-color: $main-color;
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px 15px;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: 300;
+	margin: 15px 0px;
+	-webkit-transition: background-color 300ms linear;
+	-ms-transition: background-color 300ms linear;
+	transition: background-color 300ms linear;
+
+	&.selected {
+		color: $hover-text-color;
+		background-color: $main-color;
+		-webkit-transition: background-color 150ms linear;
+		-ms-transition: background-color 150ms linear;
+		transition: background-color 150ms linear;
+	}
+
+	&.left {
+		border-radius: $radius 0px 0px $radius;
+		margin-right: -1px;
+		margin-left: 15%;
+	}
+
+	&.right {
+		border-radius: 0px $radius $radius 0px;
+		margin-right: 15%;
+	}
+
+	&:hover {
+		color: $hover-text-color;
+		background-color: $sub-color;
+		-webkit-transition: background-color 200ms linear;
+		-ms-transition: background-color 200ms linear;
+		transition: background-color 200ms linear;
+	}
+}
+
+.navigation-bar-primary {
+	@include navigation-bar($primary-color, $primary-light-color, $white, 5px);
+}
+
+.navigation-bar-secondary {
+	@include navigation-bar($secondary-color, $secondary-light-color, $white, 5px);
+}

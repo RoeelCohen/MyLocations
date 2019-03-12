@@ -1,0 +1,32 @@
+$primary-color: #9c27b0;
+$primary-light-color: #ba68c8;
+$primary-dark-color: #7b1fa2;
+$primary-text-color: #ffffff;
+
+$secondary-color: #e91e63;
+$secondary-light-color: #f06292;
+$secondary-dark-color: #c2185b;
+$secondary-text-color: #1d1d1d;
+
+$accent-color: #4caf50;
+$accent-text-color: #123;
+
+$white: #ffffff;
+$almost-black: #1d1d1d;
+$black: #000000;
+$transparent: #ffffff00;
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	height: 100vh;
+	overflow: hidden;
+}
+
+@import 'style/common';
+@import 'style/buttons';
+@import 'style/navigation';
+@import 'style/flex';
+@import 'style/form';
+@import 'style/action-bar';
+@import 'style/navigatin-bar';

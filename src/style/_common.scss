@@ -1,0 +1,69 @@
+a {
+	text-decoration: none;
+}
+
+.root {
+	height: 100%;
+}
+
+.list {
+	overflow: scroll;
+}
+
+.page {
+	height: 80%;
+
+	.select {
+		width: 250px;
+		margin-top: 16px;
+		margin-left: 16px;
+	}
+
+	@media only screen and (max-width: 600px) {
+		.select {
+			margin-left: 8px;
+			width: 70%;
+		}
+	}
+}
+
+.dialog {
+	.selectable-dialog {
+		padding-left: 10px;
+		padding-bottom: 10px;
+
+		&:hover {
+			cursor: pointer;
+			background-color: $primary-light-color;
+		}
+	}
+}
+
+.key-value-container {
+	margin-top: 20px;
+
+	.key {
+		text-transform: capitalize;
+	}
+	.value {
+		display: inline;
+		margin-left: 16px;
+	}
+}
+
+.map-container {
+	width: 100%;
+	height: 88%;
+}
+
+.sub-header {
+	&.title {
+		margin-top: 16px;
+		font-weight: 500;
+		text-transform: capitalize;
+	}
+
+	&.margin-left {
+		margin-left: 16px;
+	}
+}
