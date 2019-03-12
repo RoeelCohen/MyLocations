@@ -23,13 +23,15 @@ Also I worked on the project mostly on the weekend and didn't really want to ask
 * there is existing code to add initial data
 
 Things I would've added:
-* better validation for fields.
+* better validation for fields in forms.
 * finish the bonuses
-* emphsis on design
+* Adding "back" button - might add it today
+* more emphsis on design
+* etc..
 
 <br/>
 
-In case you missed.. [this is Hilarious!! (don't use it!)](https://www.facebook.com/groups/ProgrammersJokes/permalink/10156830597601138/)
+In case you missed.. [this is Hilarious!!](https://www.facebook.com/groups/ProgrammersJokes/permalink/10156830597601138/)(if you didn't get the joke.. don't use it! :)
 
 
 
